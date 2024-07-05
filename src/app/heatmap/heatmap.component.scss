@@ -1,0 +1,40 @@
+.heatmap {
+  display: grid;
+  grid-template-columns: repeat(30, 20px);
+  gap: 2px;
+}
+
+.row {
+  display: contents;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  font-size: 10px;
+  border-radius: 3px;
+}
+
+.filter-form {
+  margin-bottom: 20px;
+}
+
+.filter-form label,
+.filter-form input,
+.filter-form button {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.filter-form input {
+  padding: 5px;
+}
+
+.filter-form button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
